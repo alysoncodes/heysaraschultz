@@ -4,6 +4,87 @@ section[data-section-id="63dd614f5521040dfca729d5"]
 {
   display: none;
 }
+//hide sections 
+
+section[data-section-id="6425e7b1fcfab4524186276a"], section[data-section-id="642b00dd9fb32e0551db11e6"], section[data-section-id="642afdcd7be58c253db99178"], section[data-section-id="642b010260a2fc49bc1b45d3"]{
+  display: none;
+}
+//SECTION TEMPLATES FOR REPEATED SECTIONS//
+
+
+//quiz section coding
+
+// inset section
+@media @desktop{
+section.quizSection{
+  .section-background {
+  background-color:#F7F5F0 !important;
+}
+
+.content-wrapper {
+ max-width:50vw !important;
+ background-color: #F7F5F0 !important;
+  padding: 4vw .5vw 2vw .5vw !important;
+  margin-left: 27vw !important;
+}
+  
+  .sqs-block-button-element{
+  background-color: #F15A25 !important;
+    z-index: 10000!important;
+  } //gwen and zendaya
+  div.section-background::before{
+  background: url('https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/635955dcc1c7b62bd36086aa/1666799069806/Gwen-Zendaya.gif');
+  content: '';
+  height:80vh;
+  width: 90%;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  display: inline-block;
+  //transform: translate(-39vw, 5vw);
+  bottom: 0;
+    position: absolute;
+	left: 5%;
+    z-index: 2;
+  }
+
+//black and kim
+div.section-background::after{
+  background: url('https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/635955b79efa3a5d4079662f/1666799032515/Blake-Kim.gif');
+  content: '';
+  height:80vh;
+  width: 90%;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  display: inline-block;
+  //transform: translate(-39vw, 5vw);
+  right: -50%;
+    position: absolute;
+	bottom: 0;
+  z-index: 2;
+  }
+}
+}
+
+
+// inset section
+@media @mobile{
+section.quizSection{
+  .section-background {
+  background-color:#F7F5F0 !important;
+}
+
+.content-wrapper {
+ max-width:90vw !important;
+ background-color: #F7F5F0 !important;
+ margin-bottom: -2vw;
+  padding:  !important;
+}
+  
+  .sqs-block-button-element{
+  background-color: #F15A25 !important;
+    z-index: 10000!important;
+  }}}
+
 
 
 //hiding duplicate section just on the free course landing page
@@ -526,7 +607,7 @@ section.results-pages h4:last-of-type::before{
 
 //spirituality
 
-//structure
+
 @media @desktop{
 section.spirituality{
   div.section-background::before{
@@ -714,6 +795,30 @@ section[data-section-id="6376855964f9a529d157ec77"], section[data-section-id="63
   }
   
   }}
+
+//captivate your dreamy client with branding
+#collection-63479ad06b53fd781c116289{
+  section[data-section-id="63479fd86d0a52149e9dd55d"]{
+    display: none;
+  }
+}
+
+#block-yui_3_17_2_1_1679428474136_8729:after{
+  content:'';
+  width: 5%;
+  height: 100%;
+  //background-color: red !important;
+  background: url('https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/637680de3460445cc04c38f6/1668710622535/arrow.png');
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  background-position: center;
+}
+
 //____Home____//
 html, body {overflow-x: hidden!important;}
 
@@ -1302,6 +1407,84 @@ section[data-section-id="619144139eb00c5b8c367daf"] {.content-wrapper {padding-t
 @media only screen and (max-width: 640px) {#block-yui_3_17_2_1_1636911853520_7221 {padding-right: 7vw!important;}}
 
 //____End Section 10____//
+
+/******NEW SECTIONS ON HOME*******/
+
+
+//quiz section on home
+
+// inset section
+@media @desktop{
+section[data-section-id="6425e7b1fcfab4524186276a"]{
+  .section-background {
+  background-color:#F7F5F0 !important;
+}
+
+.content-wrapper {
+ max-width:50vw !important;
+ background-color: #F7F5F0 !important;
+  padding: 4vw .5vw 2vw .5vw !important;
+  margin-left: 27vw !important;
+}
+  
+  .sqs-block-button-element{
+  background-color: #F15A25 !important;
+    z-index: 10000!important;
+  } //gwen and zendaya
+  div.section-background::before{
+  background: url('https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/635955dcc1c7b62bd36086aa/1666799069806/Gwen-Zendaya.gif');
+  content: '';
+  height:80vh;
+  width: 90%;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  display: inline-block;
+  //transform: translate(-39vw, 5vw);
+  bottom: 0;
+    position: absolute;
+	left: 5%;
+    z-index: 2;
+  }
+
+//black and kim
+div.section-background::after{
+  background: url('https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/635955b79efa3a5d4079662f/1666799032515/Blake-Kim.gif');
+  content: '';
+  height:80vh;
+  width: 90%;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  display: inline-block;
+  //transform: translate(-39vw, 5vw);
+  right: -50%;
+    position: absolute;
+	bottom: 0;
+  z-index: 2;
+  }
+}
+}
+
+
+// inset section
+@media @mobile{
+section[data-section-id="63249eb0a36ccc30986111f2"]{
+  .section-background {
+  background-color:#F7F5F0 !important;
+}
+
+.content-wrapper {
+ max-width:90vw !important;
+ background-color: #F7F5F0 !important;
+ margin-bottom: -2vw;
+  padding:  !important;
+}
+  
+  .sqs-block-button-element{
+  background-color: #F15A25 !important;
+    z-index: 10000!important;
+  }}}
+
+
 //____End Home____//
 
 
@@ -2897,3 +3080,17 @@ body.sqs-edit-mode-active {
   }
 }
 }**/
+
+
+
+
+//*****************************//
+//     BLOG CATEGORY PAGES     //
+//*****************************//
+
+
+section.categoryHeader {
+  .image-block {
+    border: 1px solid black;
+  }
+  }
