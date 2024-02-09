@@ -1,0 +1,41 @@
+(put in code block)
+
+<div id="animationSlide" style="text-align: center; margin: auto!;">
+<img style="display: block; margin: auto;" src="https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/618c584a2f05283df838f577/1636587596200/SaraSchultzCo_1.png"></img>
+<p>01</p>
+ <img style="display: block; margin: auto;" src="https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/618c5859da3c8b733e574ced/1636587609951/SaraSchultzCo_2.png"></img>
+ <p>02</p>
+<img style="display: block; margin: auto;" src="https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/618c586530e83553d88dc26d/1636587622428/SaraSchultzCo_3.png"></img>
+<p>03</p>
+<img style="display: block; margin: auto;" src="https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/618c584a2f05283df838f577/1636587596200/SaraSchultzCo_1.png"></img>
+<p>04</p>
+ <img style="display: block; margin: auto;" src="https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/618c5859da3c8b733e574ced/1636587609951/SaraSchultzCo_2.png"></img>
+ <p>05</p>
+<img style="display: block; margin: auto;" src="https://static1.squarespace.com/static/60e8722fc6bcfa0427869b69/t/618c586530e83553d88dc26d/1636587622428/SaraSchultzCo_3.png"></img>
+<p>06</p>
+</div>
+
+
+//animation in header section (for css panel)
+
+#animationSlide{
+  animation: slide 13s infinite;
+}
+
+#animationSlide:hover{
+  animation-play-state: paused;
+}
+
+#block-yui_3_17_2_1_1707441202260_24807{
+  height: 80vh;
+  overflow: hidden!important;
+  margin-top: -9vh;
+}
+@keyframes slide {
+  0% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -1200px;
+  }
+}
