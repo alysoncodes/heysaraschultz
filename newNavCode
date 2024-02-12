@@ -1,0 +1,45 @@
+<ul>
+  <li id="first">Blog Categories:</li>
+  <li><a href="blog/category/Branding">branding</a></li>
+  <li><a href="blog/category/web">web</a></li>
+  <li><a href="blog/category/strategy">strategy</a></li>
+  <li><a href="/blog/category/social">social media</a></li>
+  <li><a href="blog/category/business">business 101</a></li>
+  <li><a href="blog/category/lifestyle">business x lifestyle</a></li>
+</ul>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: left;
+  
+}
+
+li#first{
+  font-family: 'avenir';
+  display: block;
+  padding-top: 1.2vw;
+  font-size: .81vw;
+}
+
+li a {
+  display: block;
+  padding-top: 1vw;
+  padding-left: 30px;
+  padding-right: 2vw;
+  font-family: 'meno banner';
+  font-size: 1vw;
+}
+
+li a:hover{
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(226,234,117,1) 50%, rgba(226,234,117,1) 20%), rgba(255,255,255,0) 100%;
+
+}
+</style>
