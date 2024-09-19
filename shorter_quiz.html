@@ -81,10 +81,8 @@
 
     //redirect object
     const redirects = {
-        1: "view.flodesk.com/pages/62f51bf3e5ea6b3d8aea4d3f",
-        2: "view.flodesk.com/pages/61293439876c79b782e683b2",
-        3: "view.flodesk.com/pages/62f51be5e5ea6b3d8aea4d3e",
-        4: "view.flodesk.com/pages/62f14b0a85187de9a5503b6a"
+        1: "heysaraschultz.myflodesk.com/rebrandresults1",
+        2: "heysaraschultz.myflodesk.com/rebrandresults1"
     };
 
 
@@ -102,11 +100,8 @@
     $("#next").hide();
     $("#prev").hide();
 
-    $("#open").append("<h3 id='openingSlide'>Start the quiz <em>now</em></h3>\
-                      <p id='openingP'>Something catchy here about the quiz and how it \
-                      relates to the celebs and your brand style. Ut enim ad minim veniam, \
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo \
-                      consequat. Duis aute irure dolor in reprehenderit.</p>");
+    $("#open").append("<h3 id='openingSlide'>Is it time for a rebrand?</h3>\
+                      <p id='openingP'>Take this super-fast, 5 minute quiz to find out if it’s time for a rebrand. Faster than you can say REBRAND, you’ll learn if you’re set up for the brand obsession you deserve. And if not, don’t panic; I’ll send you ideas to create your best brand yet!</p>");
 
     //img append
     //$("#open").append("<img src='https://images.squarespace-cdn.com/content/v1/60e8722fc6bcfa0427869b69/1660318951639-E441CWZ01HVBRLQTKEFN/Lover3.png?format=500w'>");
@@ -173,7 +168,7 @@
     $("#next").click(function() {
 
 
-        if (counter < 7) {
+        if (counter < 3) {
             console.log('main qs');
 
             $("#divResults").show();
@@ -224,7 +219,7 @@
             restorePreviousAnswer();
             
 
-        } else if (counter == 7) {
+        } else if (counter == 3) {
             //console.log('next to last question');
 
             
